@@ -7,6 +7,17 @@ working efficiently and giving good results in case when noise is not present in
 fail or not give efficient results when there is any kind of noise or fog in the road images. The noise can be anything
 like dust, shadows, puddles, oil stains, tire skid marks, etc.
 
+Technology Stack
+
+OpenCV
+
+Libraries required for this task:
+NumPy: It comes by default with anaconda
+Matplotlib: To install matplotlib, type – “pip install matplotlib” into your command line
+OpenCV: It can be installed in two ways, using anaconda or using pip.
+To install using anaconda, type- “conda install -c conda-forge opencv”, or to install using pip, type-
+“pip install opencv-python” into your command line 
+
 1. Introduction
 Traffic accidents have become one of the most serious problems in today's world. Roads are the mostly chosen modes of
 transportation and provide the finest connections among all modes. Most frequently occurring traffic problem is the
