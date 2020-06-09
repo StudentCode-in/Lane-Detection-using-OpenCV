@@ -13,10 +13,17 @@ OpenCV
 
 Libraries required for this task:
 NumPy: It comes by default with anaconda
+
 Matplotlib: To install matplotlib, type – “pip install matplotlib” into your command line
+
 OpenCV: It can be installed in two ways, using anaconda or using pip.
+
 To install using anaconda, type- “conda install -c conda-forge opencv”, or to install using pip, type-
 “pip install opencv-python” into your command line 
+
+Flowchart
+
+![flow](flow.png)
 
 1. Introduction
 Traffic accidents have become one of the most serious problems in today's world. Roads are the mostly chosen modes of
