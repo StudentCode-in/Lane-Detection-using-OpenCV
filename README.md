@@ -35,6 +35,11 @@ The Hough transform is a technique in which features are extracted that is used 
 processing. Previously the classical Hough Transform worked on the identification of lines in the image but later it has been
 extended to identifying positions of shapes like circles and ellipses. In automated analysis of digital images, there was a problem of detecting simple geometric shapes such as straight lines, circle, etc. So in the pre-processing stage edge detector has been used to obtain points on the image that lie on the desired curve in image space. But due to some imperfections in image data or in the edge detector, some pixels were missing on the desired curve as well as spacial deviation between the geometric shape used and the noisy edge pixels obtained by the edge detector. So to refine this problem Hough transform is used. In this the grouping of edge pixels into an object class is performed by choosing appropriate pixels from the set of parametric image objects.
 
+Input Image                               Finding lines using Hough Transform
+
+![inputhou](inputhou.png)                  ![outputhou](outputhou.png)                                      
+  
+
 The simplest case of Hough transform is finding straight lines that are hidden in large amounts of image data. For
 detecting lines in images, the image is first converted into binary image using some form of thresholding and then the
 positive or suitable instances are added into the dataset. The main part of Hough transform is the Hough space. Each point
@@ -53,6 +58,10 @@ extraction. Applying an edge detection algorithm to an image may significantly r
 and may therefore filter out information that may be regarded as less relevant, while preserving the important structural
 properties of an image. If the edge detection step is successful, the subsequent task of interpreting the information contents in the original image may therefore be substantially simplified. However, it is not always possible to obtain such ideal edges from real life images of moderate complexity.
 
+Edge detection using Canny Edge detection algorithm
+
+![cannywithout](cannywithout.png) ![cannywith](cannywith.png) 
+
 The Canny edge detector is an edge detection algorithm that uses a multiple stage algorithm so as to detect edges in
 images. Its aim is to discover the optimal edge detection. In this definition, an optimal edge detector includes the following things
 
@@ -70,6 +79,10 @@ In this filter every sample is replaced by a weighted average of its neighbors. 
 the closeness of the neighborhood with the center sample so that larger weight is assigned to the closer samples, and
 similarity between neighborhood and the center sample so that larger weight is assigned to the similar samples.
 As it is seen in figures below, the output image is almost similar to the input image inspite of smoothening.
+
+Filtered image using Bilateral Filter
+
+![withoutbi](withoutbi.png)  ![withbi](withbi.png) 
 
 An assistive navigation system has been developed for the blind by employing geometric figures
 like straight line, parabola, or hyperbola. By combining color and local intensity information, this method detected correctly pedestrian marked lanes in different illumination and weather conditions (sunny, cloudy, strong shadows, times of day).
