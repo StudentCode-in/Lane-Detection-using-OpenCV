@@ -16,6 +16,14 @@ System (ITS). Intelligent transportation systems are advanced applications which
 to different modes of transport and traffic management. This system enables various users to be better informed and make
 safer, more coordinated, and smarter use of transport networks.These road accidents can be reduced with the help of road lanes or white markers that assist the driver to identify the road area and non-road area. A lane is a part of the road marked which can be used by a single line of vehicles as to control and guide drivers so that the traffic conflicts can be reduced.
 
+Road scene image
+
+![lanewithout](lanewithout.png)
+
+Lane detection
+
+![lanewith](lanewith.png)
+
 
 To detect road markings and road boundaries various methodologies are used like Hough Transform, Canny edge
 detection algorithm, bilateral filter. The main working of all these are as follows:
