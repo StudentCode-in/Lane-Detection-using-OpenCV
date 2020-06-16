@@ -23,17 +23,18 @@ safer, more coordinated, and smarter use of transport networks.These road accide
 
 Technology Stack
 
-#OpenCV
+# OpenCV
 
 Libraries required for this task:
-#NumPy: It comes by default with anaconda
 
-#Matplotlib: To install matplotlib, type – “pip install matplotlib” into your command line
+# NumPy: It comes by default with anaconda
 
-#OpenCV: It can be installed in two ways, using anaconda or using pip.
+# Matplotlib: To install matplotlib, type – “pip install matplotlib” into your command line
 
-#To install using anaconda, type- “conda install -c conda-forge opencv”, or to install using pip, type-
-“pip install opencv-python” into your command line 
+# OpenCV: It can be installed in two ways, using anaconda or using pip.
+
+# To install using anaconda, type- “conda install -c conda-forge opencv”, or to install using pip, type-
+# “pip install opencv-python” into your command line 
 
 Flowchart
 
@@ -53,7 +54,7 @@ To detect road markings and road boundaries various methodologies are used like 
 detection algorithm, bilateral filter. The main working of all these are as follows:
 
 
-A. Hough Transform
+# A. Hough Transform
 
 The Hough transform is a technique in which features are extracted that is used in image analysis and digital image
 processing. Previously the classical Hough Transform worked on the identification of lines in the image but later it has been
@@ -73,7 +74,7 @@ in Hough space gives the point density along a line in the data space.
 For each point in the Hough space, consider all the lines which go through that point at an actual discrete set of
 angles that are chosen on the priority basis. For each angle T, calculate the distance to the line through the point at that angle and discretize that distance using a priori chosen discretization, giving value d. Now make a corresponding discretization of the Hough space. This will result in a set of boxes in Hough space. These boxes are called the Hough accumulators. For each line it considers above, we increment a count (initialized at zero) in the Hough accumulator at point (d, T). After considering all the lines through all the points, a Hough accumulator with a high value will probably correspond to a line of points.
 
-B. Edge Detection
+# B. Edge Detection
 
 Edge detection works on the idea of the identification of points in the digital image at which the image brightness changes
 sharply. The points at which image brightness changes sharply are organized into a set of curved line segments termed as
@@ -93,7 +94,7 @@ images. Its aim is to discover the optimal edge detection. In this definition, a
 >>Good localization – edges marked through this algorithm should approach as close as possible to the edge in the real image.
 >>Minimal response – a given edge in the image should only be marked once so as to reduce false edges.
 
-C. Bilateral filter
+# C. Bilateral filter
 
 Bilateral filter is a simple and non-iterative scheme which smoothens the image while preserving the edges. The basic idea
 behind the working of bilateral filter is that the two pixels should be close to one another. This filter split an image into
@@ -119,7 +120,7 @@ respect to the road surface, the road portion of the image can be exclusively cr
 identifying the lanes became much more efficient.
 
 
-3. Conclusion
+# 3. Conclusion
 
 The lane detection has proved to be an efficient technique to prevent accidents in Intelligent Transportation Systems. The
 review on lane detection has shown that the most of the researchers has neglected the problem of the fog and noise in
