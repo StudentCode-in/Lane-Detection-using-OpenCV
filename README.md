@@ -23,20 +23,20 @@ safer, more coordinated, and smarter use of transport networks.These road accide
 
 Technology Stack
 
-# OpenCV
+OpenCV
 
 Libraries required for this task:
 
-# NumPy: It comes by default with anaconda
+NumPy: It comes by default with anaconda
 
-# Matplotlib: To install matplotlib, type – “pip install matplotlib” into your command line
+Matplotlib: To install matplotlib, type – “pip install matplotlib” into your command line
 
-# OpenCV: It can be installed in two ways, using anaconda or using pip.
+OpenCV: It can be installed in two ways, using anaconda or using pip.
 
-# To install using anaconda, type- “conda install -c conda-forge opencv”, or to install using pip, type-
-# “pip install opencv-python” into your command line 
+To install using anaconda, type- “conda install -c conda-forge opencv”, or to install using pip, type-
+“pip install opencv-python” into your command line 
 
-Flowchart
+# Flowchart
 
 ![flow](flow.png)
 
