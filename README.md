@@ -1,10 +1,10 @@
-Project Admin
+Project Admin-:
 Akshita Gupta
 https://github.com/akshitagupta15june
 
 Have a look at my original repo https://github.com/akshitagupta15june/lane_detection_opencv
 
-I would love to see your contribution and PR.
+### I would love to see your contribution and PR.
 fork it, try it, add something new and interesting.
 # Lane-Detection-using-OpenCV
 
