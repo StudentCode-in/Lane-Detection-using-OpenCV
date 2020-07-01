@@ -4,6 +4,8 @@ https://github.com/akshitagupta15june
 
 Have a look at my original repo https://github.com/akshitagupta15june/lane_detection_opencv
 
+To The lane detection has proved to be an efficient technique to prevent accidents in Intelligent Transportation Systems.The review on lane detection has shown that the most of the researchers has neglected the problem of the fog and noise in images. Thus noise and fog may reduce the accuracy of the existing systems. 
+
 ### I would love to see your contribution and PR.
 fork it, try it, add something new and interesting.
 # Lane-Detection-using-OpenCV
